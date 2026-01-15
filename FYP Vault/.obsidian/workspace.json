@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General Notes/Differential Equations.md",
+                "file": "References/Flynn2024.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Differential Equations"
+              "title": "Flynn2024"
             }
           }
         ],
@@ -186,15 +186,16 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "3ca4d30b2559c544",
+  "active": "e08062ecc828b5e6",
   "lastOpenFiles": [
+    "Templates/paper.md",
+    "General Notes/Differential Equations.md",
     "General Notes/GRIN Lens.md",
     "Lit Review/Maths of the lens.md",
     "Lit Review/Main Points.md",
     "Lit Review/GRIN Lenses.md",
     "General Notes/Schematic Eye Models.md",
     "General Notes/Questions for meeting.md",
-    "General Notes/Differential Equations.md",
     "Lit Review/How are they Used in Eyes.md",
     "References/Flynn2024.md",
     "Plan/Project Plan.md",
@@ -221,7 +222,6 @@
     "References/Barion2024.md",
     "Media/Spherical.jpg",
     "GRIN.md",
-    "2025-10-09.md",
     "Lit Review",
     "Definitions",
     "General Notes",
