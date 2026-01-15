@@ -1,0 +1,32 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "References/",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "png",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [
+    {
+      "name": "Full Citation",
+      "format": "template",
+      "cslStyle": "chicago-author-date"
+    },
+    {
+      "name": "Cite",
+      "format": "template",
+      "template": "{{citekey}}"
+    }
+  ],
+  "exportFormats": [
+    {
+      "name": "Import Paper",
+      "outputPathTemplate": "References/{{citekey}}.md",
+      "imageOutputPathTemplate": "Media/zotero/{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "Templates/paper.md"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": true,
+  "whichNotesToOpenAfterImport": "first-imported-note",
+  "shouldConcat": true
+}
