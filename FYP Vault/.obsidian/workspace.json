@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Flynn2024.md",
+                "file": "Lit Review/Maths of the lens.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flynn2024"
+              "title": "Maths of the lens"
             }
           }
         ],
@@ -186,18 +186,20 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "e08062ecc828b5e6",
+  "active": "3ca4d30b2559c544",
   "lastOpenFiles": [
+    "Lit Review/Main Points.md",
+    "Lit Review/How are they Used in Eyes.md",
+    "Lit Review/GRIN Lenses.md",
+    "Lit Review/Aberrations.md",
+    "General Notes/Lens Shape.md",
+    "General Notes/Questions for meeting.md",
+    "General Notes/Schematic Eye Models.md",
+    "General Notes/GRIN Lens.md",
+    "References/Flynn2024.md",
     "Templates/paper.md",
     "General Notes/Differential Equations.md",
-    "General Notes/GRIN Lens.md",
     "Lit Review/Maths of the lens.md",
-    "Lit Review/Main Points.md",
-    "Lit Review/GRIN Lenses.md",
-    "General Notes/Schematic Eye Models.md",
-    "General Notes/Questions for meeting.md",
-    "Lit Review/How are they Used in Eyes.md",
-    "References/Flynn2024.md",
     "Plan/Project Plan.md",
     "Plan",
     "References/Liu2005.md",
@@ -205,12 +207,10 @@
     "References/Navarro2009.md",
     "References/Liou1997.md",
     "References/Goncharov2008.md",
-    "General Notes/Lens Shape.md",
     "References/Goncharov2007.md",
     "References/Goncharov2007c.md",
     "Media/GRIN-lens-types.jpg",
     "Media/Liou-shell-graph.png",
-    "Lit Review/Aberrations.md",
     "Media/Axial.jpg",
     "Untitled.canvas",
     "Media/Radial.jpg",
