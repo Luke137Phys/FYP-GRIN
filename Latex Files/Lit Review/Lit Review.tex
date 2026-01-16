@@ -1,0 +1,269 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{float}
+\usepackage[margin=0.75in]{geometry}
+%\usepackage[hidelinks]{hyperref}
+\usepackage{biblatex}
+%\usepackage{csquotes}
+\addbibresource{References.bib}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{pdfpages}
+\setlength\parindent{0pt}
+%Title Section
+
+\author{Luke Madden \\ Supervised by Dr Conor Flynn}
+\title{Design of a hyperbolic profile for modelling second-order GRIN lenses
+for application in the human eye}
+\begin{document}
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+            
+        \Huge
+        \textbf{Design of a hyperbolic profile for modelling second-order GRIN lenses for application in the human eye}
+                 
+        \vspace{1cm}
+            
+        \textbf{Luke Madden}\\
+        \vspace{0.3cm}
+        \Large
+        Supervised by Dr Conor Flynn
+            
+        \vspace{5cm}
+            
+        \includegraphics[width=8cm]{UGLOGO.png} 
+        \vfill
+        \Large
+        School of Natural Sciences\\
+        University of Galway\\
+        \today
+            
+    \end{center}
+\end{titlepage}
+
+\begin{abstract}
+\textbf{Abtract goes here}
+\end{abstract}
+\newpage
+\tableofcontents
+\newpage
+\section{Introduction}
+Gradient Index (GRIN) lenses are found in many areas of optics from fibre optics and photocopiers \cite{2025} to the area we are most interested in, the crystalline lens of the eye \cite{Goncharov2020a}. This project aims to build on previous work done by Flynn \cite{Flynn2024} to create a more accurate model of the crystalline lens using a hyperbolic GRIN profile. Then, this model will be used by other eye models \cite{Liou1997, Goncharov2007} and using reverse ray tracing \cite{Goncharov2008} to reconstruct a more accurate anatomically correct schematic eye model of the human eye.
+
+\subsection{GRIN Lenses}
+GRIN lenses, are lenses where the refractive index of the material changes as a function of distance as light passes through the medium. So far, all species of eye that has been measured, contains a GRIN lens. There are three main types of GRIN lens: Spherical Gradients, Radial Gradients and Axial Gradients \cite{Pierscionek2012}.
+
+\subsubsection*{Spherical Gradients:}
+Spherical gradients are ones where the gradient of refactive index has a perfectly spherical distribution. The value for the refractive index decreases from a maximum at the centre of the spherical lens to a minimum at the edge. Notable examples of spherical gradients are the "Fisheye lens" model proposed by Maxwell and the "Luneberg Lens" model \cite{Luneburg2023}. Maxwell's model is limited only to rays emanating from points on the lens surface, while the Luneberg model is capable of imaging objects beyond the lens surface and has the ability to focus parallel rays to a single point \cite{Pierscionek2012}.\\
+
+Despite their wide use in other areas of optics, spherical gradients have never been observed in the lens of the eye. For this reason the will not be considered for the rest of the project.
+
+\subsubsection*{Radial Gradients:}
+In a radial gradient, the refractive index increases or decreases with distance perpendicular to the optical axis of the lens.\\
+
+\textit{\textbf{•Add the rest about spherical gradients here}}
+
+\subsubsection*{Axial Gradients:}
+\textit{\textbf{•Add information about axial gradients here}}\\
+\textit{\textbf{•Include Piersoneck Image of different gradient types.}}
+
+\subsection{GRIN Lenses in Nature}
+\textbf{\textit{Include information here about the types of gradients that appear in eyes, a small bit about how there are formed (Sasha paper)}}
+
+\section{Mathematical Background}
+Various mathematical methods exist for modelling the shape of the lens, it's gradient index and tracing how light travels through it. The most important methods in relation to this project are outlined below.
+
+\subsection{GRIN Lenses}
+
+GRIN lenses are modelled using a higher order polynomial in distance from surface along the optical axis, $z$ and height above the optical axis and with GRIN coefficients $n_i$. \cite{Goncharov2007}.
+
+\begin{equation*}
+	n(z,h)=n_0+n_1h^2+n_2h^4+n_3z+n_4z^2+n_5z^3+n_6z^4.
+\end{equation*}
+Here, $n_0$ is the refractive index at the surface of the lens and $n_1,\ \dots, n_i$ are the ``GRIN coefficients''. This can be simplified to a quadratic equation by setting some of the GRIN coefficients to zero. It has been shown that a quadratic model of the GRIN lens is sufficient when modelling the crystalline lens:
+
+\begin{equation}\label{eqn:GRIN}
+	n(z,h)=n_0-n_1h^2+n_3z-n_4z^2.
+\end{equation}
+
+In doing so, the $n_2$ term dissapears leaving the only GRIN coefficients as $n_0,\ n_1,\ n_3,\ and\ n_4$. If needed, the higher order terms can be easily added back, however, it will increase the complexity when solving the ray tracing equations. This equation is sufficient for modelling a homogeneous, symmetric lens. However, for modelling the crystalline lens of the eye, two equations are needed to model the asymmetric nature of the lens. These equations model the anterior (front) and posterior (back) portions of the lens. Their equations are:
+
+\begin{equation*}
+	n_a(z,h)=n_0-n_1h^2+n_3z-n_4z^2,
+\end{equation*}
+
+\begin{equation*}
+	n_p(z,h)=n_{max}-n_1h^2+n_{3,2}z-n_{4,2}z^2.
+\end{equation*}
+
+Here $n_{max}$ is the maximum refractive index at the centre of the eye and $n_{3,2}$ and $n_{4,2}$ are distinct GRIN coefficients for the posterior region. The value of $n_1$ remains the same in both regions. In the anterior region of the eye, the refractive index starts at a minimum and increases to a maximum at the centre while in the posterior region it starts at a maximum and decreases to a minimum at the surface of the lens. The plane where the two regions meet is called the saggital plane and in order to maintain continuity of the refractive index, it follows a curve similar to that of the lens \cite{Navarro2009}. \textbf{[INCLUDE IMAGE OF THIS HERE FROM NAVARRO PAPER]}
+
+\subsubsection*{GRIN Coefficients:}
+
+The GRIN coefficients can be used to determine the charecteristics and shape of the lens. Using the ``Sag'' equation below, the radii of the iso-indicial contours can be derived:
+
+\begin{equation}\label{eq:Sag}
+	h^2=2R(z)z-(1-k)z^2.
+\end{equation}	
+
+By rearranging Equation \eqref{eqn:GRIN} and setting $n(z,h)=n_0$, the following formula can be found:
+
+\begin{equation}
+	h^2=\frac{n_3}{n_1}z-\frac{n_4}{n_1}z^2.
+\end{equation} 
+
+Comparing this with Equation \eqref{eq:Sag} it can be determined that:
+
+\begin{equation}
+	R=\frac{n_3}{2n_1}
+\end{equation}
+and
+\begin{equation}
+	k=\frac{n_4}{n_1}-1.
+\end{equation}
+
+where $R$ is the radius of curvature of the lens and $k$ is the conic constant \cite{Flynn2024}. Furthermore by taking the derivative of Equation \eqref{eqn:GRIN} with respect to $z$ and setting it equal to zero it can be found that the maximum refractive index occurs at the point $z=\frac{n_3}{2n_4}$ with value:
+
+\begin{equation*}
+	n_{max}=n_0+\frac{n_3^2}{4n_4}.
+\end{equation*}
+
+\subsubsection*{Ellipic Lenses}
+
+For lenses with a shape that is conic, rather than spherical, the following formula can also be used to determine the thickness, $d$, and the aperture, $D$ of the crystalline lens:
+
+\begin{equation}
+	d=\frac{n_3}{n_4},
+\end{equation}
+
+\begin{equation}
+	D=\sqrt{\frac{n_3^2}{n_1n_4}}.
+\end{equation}
+
+An ellipical lens can be created by letting $d\neq D$. This can then be solved with the other equations to get values for the GRIN coefficients that are needed for the elliptic lens. This will be the case when $0 > k > -1$.
+
+\subsubsection*{Hyperbolic Lenses}
+
+As previously mentioned, the crystalline lens of the human eye follows a hyperbolic shape. In order to achieve this, he same equations as above can be used to deduce it's height and thickness, but this time with a conic constant of $k<-1$. The anterior and posterior regions will have different values for $d,\ D\ and\ k$.\\
+
+In order to maintain comtinuity across the anterior and posterior region of the lens, the saggital plan (middle line between the lenses) needs to also be curved with the same profile as the GRIN distribution, rather than a straight line \cite{Navarro2009}. \textbf{[Include Navarro image here]}
+
+\subsection{Ray Tracing in a GRIN Lens}
+
+Ray tracing is mathematically determining the path of light through a given medium. There are two ways of performing ray tracing: Discrete and Continuous.
+
+\subsubsection*{Discrete Ray Tracing}
+
+Discrete ray tracing in the paraxial region (close to the optical axis) of a GRIN lens can be performed by representing the lens as a series of concentric lens surfaces (iso-indicial contours) and applying the ``Paraxial Ray Tracing Equations'':
+
+\begin{equation}\label{eqn:para1}
+	n_{j+1}u_{j+1}=n_ju_j-h_jF_j,
+\end{equation}
+
+\begin{equation}\label{eqn:para2}
+	F_j= \frac{n_{j+1}-n_j}{R_j},
+\end{equation}
+
+\begin{equation}\label{eqn:para3}
+	h_{j+1}=h_j+d_{j+1}u_{j+1}.
+\end{equation}\\
+
+Where $n_j$ is the refractive index of the $j^{th}$ lens surface, $u_j$ is the angle of the ray of light after passing through the $j^{th}$ lens surface, $F_j$ is the power of the $j^{th}$ lens surface, $h_j$ is the vertical distance of the ray from the optical axis at the $j^{th}$ lens surface, $R_j$ is the radius of curvature of the $j^{th}$ lens surface and $d_j$ is the distance along the optical axis of the ray as it passes through the $j^{th}$ lens surface with $j=0,1,2\dots N$ and $N$ is the number of iso-indicial contours.\\
+
+This method discretely steps through each contour and calculates the properties of the lens at each point. While it provides a mostly accurate result compared to numerical ray tracing, the human eye is not made of many layers of different refractive index, it is instead a continuous medium. It has been shown that increasing the number of iso-indicial contours when calculating the equivalent focal length (EFL) of the eye achieves values that are closer to experimental values \cite{Liu2005}. This shows that a continuous differential method will be more accurate for ray tracing in the human eye.
+
+\subsubsection*{Continuous Ray Tracing}
+
+In general, most ray tracing (in all types of lens, not just GRIN medium) is done by solving the ``Ray Equation'' numerically. The 2D ray equation takes the form of a partial differential equation for the ray path:
+
+\begin{equation}\label{eqn:ray}
+	\frac{\text{d}}{\text{d}s}\left(n\frac{\text{d}\vec{r}}{\text{d}s}\right)=\nabla n.
+\end{equation}
+
+This is the equation that is solved numerically in ray tracing software such as Zemax. Starting with the eqns \eqref{eqn:para1}, \eqref{eqn:para2}, \eqref{eqn:para3} a paraxial ray tracing equation can be derived \cite{Flynn2024}. This equation can be reduced to take the form of the ray equation, eqn \eqref{eqn:ray}:
+
+\begin{equation}\label{eqn:paraxconor}
+	n\frac{d^2h}{dz^2}+\frac{dn}{dz}\frac{dh}{dz}+2n_1h=0.
+\end{equation}
+
+This can then be solved using the method of Legendre polynomials, giving the solution:
+
+\begin{equation*}
+	\begin{aligned}
+		h(z)&=C_1P_{\frac{\sqrt{8n_1+n_4}-\sqrt{n_4}}{2\sqrt{n_4}}}\left(\frac{2n_4z-n_3}{\sqrt{-4n_1n_4h_0^2+n^2_3+4n_0n_4}}\right)\\	&+C_2Q_{\frac{\sqrt{8n_1+n_4}-\sqrt{n_4}}{2\sqrt{n_4}}}\left(\frac{2n_4z-n_3}{\sqrt{-4n_1n_4h_0^2+n^2_3+4n_0n_4}}\right),
+	\end{aligned}
+\end{equation*}
+
+Here, $P_n(x)$ and $Q_n(x)$ are Legendre polynomials and the constant coefficients $C_1$ and $C_2$ can be found by examining the initial conditions:
+
+\begin{equation}
+	\begin{aligned}
+		h(z_0)&=h_0,\\
+		h'(z_0)&=u_0,	\end{aligned}
+\end{equation}
+
+where $h_0$ is the initial height of the ray and $u_0$ is the initial angle of the ray with respect to the optical axis.
+
+\subsubsection*{Nonparaxial Ray Tracing}
+
+It was further found by \cite{Flynn2024}, that a differential ray equation can be found for use in the non paraxial region using methods of Lagrangian optics.
+
+First, representing the path light takes in $2D$ as:
+
+\begin{equation*}
+	\text{d}s^2=\text{d}h^2+\text{d}z^2,
+\end{equation*}
+
+where $s$ is the ray path, $h$ is the height from the optical axis, $z$ is the distance along the optical axis and d implies the quantities are infinitesimals.\\
+
+This can then be rearranged to get:
+\begin{equation*}
+	\text{d}s=\sqrt{1+(h'(z))^2}\text{d}z.
+\end{equation*}
+
+Multiplying both sides by $n$ and taking the integral, Fermat's Principle can be seen to appear on the left:
+
+\begin{equation*}
+	\int_P^Q n\text{d}s=\int_{zP}^{zQ}n\sqrt{1+(h'(z))^2}\text{d}z.
+\end{equation*}
+
+Using Fermat's principle we can say that:
+\begin{equation*}
+	f(z,h(z),h'(z))=n(z,h(z)\sqrt{1+(h'(z))^2},
+\end{equation*}
+
+where $f$ is some functional.
+
+Using the Euler-Lagrange Equation:
+
+\begin{equation*}
+	\frac{\text{d}}{\text{d}z}(f_{h'})=f_{h},
+\end{equation*}
+
+where $f_x$ denotes $\frac{\text{d}f}{\text{d}x}$, such that the above can be expressed as:
+
+\begin{equation*}
+	\frac{\text{d}}{\text{d}z}\left(\frac{\text{d}f}{\text{d}h'}\right)=\frac{\text{d}f}{\text{d}h}.
+\end{equation*}
+
+Calculating this out using the chain rule gives:
+
+\begin{equation}
+	\frac{nh''}{\sqrt{1+(h')^2}}+n'h'-n'=0,
+\end{equation}
+
+which can be reduced using a Taylor series expansion to give:
+
+\begin{equation}
+	\frac{nh''}{1+\frac{1}{2}(h')^2}+n'h'+2n_1h=0.
+\end{equation}
+
+This is the final form of the ``Non-Paraxial Ray Tracing Equation''. 123 test
+
+\printbibliography
+\end{document}
