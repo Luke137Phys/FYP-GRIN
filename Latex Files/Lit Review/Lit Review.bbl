@@ -1,0 +1,461 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{2025}{article}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Gradient-index (GRIN) optics is the branch of optics covering optical effects produced by a gradient of the refractive index of a material. Such gradual variation can be used to produce lenses with flat surfaces, or lenses that do not have the aberrations typical of traditional spherical lenses. Gradient-index lenses may have a refraction gradient that is spherical, axial, or radial.}
+      \field{annotation}{Page Version ID: 1313192374}
+      \field{journaltitle}{Wikipedia}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{title}{Gradient-Index Optics}
+      \field{urlday}{23}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/l137/snap/zotero-snap/common/Zotero/storage/I96FC6VR/index.html
+      \endverb
+    \endentry
+    \entry{Goncharov2020a}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=7691558fc8d4b2de5534a693a73ff262}{%
+           family={Goncharov},
+           familyi={G\bibinitperiod},
+           given={Alexander\bibnamedelima V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SPIE}%
+      }
+      \strng{namehash}{7691558fc8d4b2de5534a693a73ff262}
+      \strng{fullhash}{7691558fc8d4b2de5534a693a73ff262}
+      \strng{fullhashraw}{7691558fc8d4b2de5534a693a73ff262}
+      \strng{bibnamehash}{7691558fc8d4b2de5534a693a73ff262}
+      \strng{authorbibnamehash}{7691558fc8d4b2de5534a693a73ff262}
+      \strng{authornamehash}{7691558fc8d4b2de5534a693a73ff262}
+      \strng{authorfullhash}{7691558fc8d4b2de5534a693a73ff262}
+      \strng{authorfullhashraw}{7691558fc8d4b2de5534a693a73ff262}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Light in {{Nature VIII}}}
+      \field{langid}{english}
+      \field{shorttitle}{Vision in Nature through {{GRIN}} Media}
+      \field{title}{Vision in Nature through {{GRIN}} Media: {{Smart}} Optical Design}
+      \field{urlday}{20}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{1148103}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1117/12.2569738
+      \endverb
+      \verb{file}
+      \verb /home/l137/snap/zotero-snap/common/Zotero/storage/2REPLB5W/vision-in-nature-through-grin-media-smart-optical-design.html
+      \endverb
+    \endentry
+    \entry{Flynn2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=53a2e66c6c37ba24abf83af5105d22af}{%
+           family={Flynn},
+           familyi={F\bibinitperiod},
+           given={Conor},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7691558fc8d4b2de5534a693a73ff262}{%
+           family={Goncharov},
+           familyi={G\bibinitperiod},
+           given={Alexander\bibnamedelima V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c3bfe1298115bde289fe9faafd99476}
+      \strng{fullhash}{1c3bfe1298115bde289fe9faafd99476}
+      \strng{fullhashraw}{1c3bfe1298115bde289fe9faafd99476}
+      \strng{bibnamehash}{1c3bfe1298115bde289fe9faafd99476}
+      \strng{authorbibnamehash}{1c3bfe1298115bde289fe9faafd99476}
+      \strng{authornamehash}{1c3bfe1298115bde289fe9faafd99476}
+      \strng{authorfullhash}{1c3bfe1298115bde289fe9faafd99476}
+      \strng{authorfullhashraw}{1c3bfe1298115bde289fe9faafd99476}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The propagation of light within a gradient index (GRIN) media can be analyzed with the use of differential equations for a given non-homogenous refractive index profile. Numerical methods are often necessary to perform ray-tracing in GRIN media; however, analytical solutions exist for several types of GRIN lenses. In this paper, paraxial and non-paraxial differential equations are derived to calculate the ray path in a GRIN lens. It is shown that the paraxial equation has an analytical solution for a GRIN media with a quadratic profile within the paraxial region. The analytical solution can be obtained by using Legendre polynomials or by the Frobenius method involving a power series. Using the Legendre or Frobenius solution, one can calculate the refractive indices along the ray path. A new recursive relationship is proposed to map the trajectory of light at finite heights. To illustrate the finite ray-tracing method utilizing a non-paraxial differential equation, two lenses (with spherical and elliptical iso-indicial contours) are considered. The lenses' back focal distances, for rays entering the lenses at varying finite heights, are calculated. For each lens, its spherical aberration is estimated. The effective focal length and the shape of the principal surface are also obtained. The accuracy of the results is then compared to the numerical ray-tracing using an optical design software, Zemax OpticStudio. The predicted spherical aberration for the spherical lens differs from numerical ray-tracing by less than {$\lambda$} 14 at the marginal zone, while the error for the effective focal length is less than {$\lambda$} 100.}
+      \field{issn}{1559-128X, 2155-3165}
+      \field{journaltitle}{Applied Optics}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Semi-Analytical Finite Ray-Tracing through the Quadratic Symmetric {{GRIN}} Lens}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{63}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{290}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1364/AO.504305
+      \endverb
+      \verb{file}
+      \verb /home/l137/snap/zotero-snap/common/Zotero/storage/V6K8ATYD/Flynn and Goncharov - 2024 - Semi-analytical finite ray-tracing through the quadratic symmetric GRIN lens.pdf
+      \endverb
+    \endentry
+    \entry{Liou1997}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=9ed80d3035484b60acda1383265a717b}{%
+           family={Liou},
+           familyi={L\bibinitperiod},
+           given={Hwey-Lan},
+           giveni={H\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=269d0c28cbae5affac87d0082ffda3e1}{%
+           family={Brennan},
+           familyi={B\bibinitperiod},
+           given={Noel\bibnamedelima A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{52d1a5bc2ad48bd5448ad1b82bdf0b80}
+      \strng{fullhash}{52d1a5bc2ad48bd5448ad1b82bdf0b80}
+      \strng{fullhashraw}{52d1a5bc2ad48bd5448ad1b82bdf0b80}
+      \strng{bibnamehash}{52d1a5bc2ad48bd5448ad1b82bdf0b80}
+      \strng{authorbibnamehash}{52d1a5bc2ad48bd5448ad1b82bdf0b80}
+      \strng{authornamehash}{52d1a5bc2ad48bd5448ad1b82bdf0b80}
+      \strng{authorfullhash}{52d1a5bc2ad48bd5448ad1b82bdf0b80}
+      \strng{authorfullhashraw}{52d1a5bc2ad48bd5448ad1b82bdf0b80}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There is a need for a schematic eye that models vision accurately under various conditions such as refractive surgical procedures, contact lens and spectacle wear, and near vision. Here we propose a new model eye close to anatomical, biometric, and optical realities. This is a finite model with four aspheric refracting surfaces and a gradient-index lens. It has an equivalent power of 60.35 D and an axial length of 23.95 mm. The new model eye provides spherical aberration values within the limits of empirical results and predicts chromatic aberration for wavelengths between 380 and 750 nm. It provides a model for calculating optical transfer functions and predicting optical performance of the eye.}
+      \field{journaltitle}{JOSA A, Vol. 14, Issue 8, pp. 1684-1695}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{title}{Anatomically Accurate, Finite Model Eye for Optical Modeling}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{1997}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1364/JOSAA.14.001684
+      \endverb
+      \verb{file}
+      \verb /home/l137/snap/zotero-snap/common/Zotero/storage/IGW5NNGE/Liou and Brennan - 1997 - Anatomically accurate, finite model eye for optical modeling.pdf
+      \endverb
+      \keyw{Chromatic aberration,Gradient index lenses,Modulation transfer function,Optical design software,Optical transfer functions,Spherical aberration}
+    \endentry
+    \entry{Goncharov2007}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=7691558fc8d4b2de5534a693a73ff262}{%
+           family={Goncharov},
+           familyi={G\bibinitperiod},
+           given={Alexander\bibnamedelima V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=8aafaa64a60d78f53ea1a70f721083f9}{%
+           family={Dainty},
+           familyi={D\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{34b55fece97f5778725465e73a40b452}
+      \strng{fullhash}{34b55fece97f5778725465e73a40b452}
+      \strng{fullhashraw}{34b55fece97f5778725465e73a40b452}
+      \strng{bibnamehash}{34b55fece97f5778725465e73a40b452}
+      \strng{authorbibnamehash}{34b55fece97f5778725465e73a40b452}
+      \strng{authornamehash}{34b55fece97f5778725465e73a40b452}
+      \strng{authorfullhash}{34b55fece97f5778725465e73a40b452}
+      \strng{authorfullhashraw}{34b55fece97f5778725465e73a40b452}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a wide-field schematic eye model, which provides a more realistic description of the optical system of the eye in relation to its anatomical structure. The wide-field model incorporates a gradient-index (GRIN) lens, which enables it to fulfill properties of two well-known schematic eye models, namely, Navarro's model for off-axis aberrations and Thibos's chromatic on-axis model (the Indiana eye). These two models are based on extensive experimental data, which makes the derived wide-field eye model also consistent with that data. A mathematical method to construct a GRIN lens with its iso-indicial contours following the optical surfaces of given asphericity is presented. The efficiency of the method is demonstrated with three variants related to different age groups. The role of the GRIN structure in relation to the lens paradox is analyzed. The wide-field model with a GRIN lens can be used as a starting design for the eye inverse problem, i.e., reconstructing the optical structure of the eye from off-axis wavefront measurements. Anatomically more accurate age-dependent optical models of the eye could ultimately help an optical designer to improve wide-field retinal imaging.}
+      \field{issn}{1084-7529}
+      \field{journaltitle}{Journal of the Optical Society of America. A, Optics, Image Science, and Vision}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{Wide-Field Schematic Eye Models with Gradient-Index Lens}
+      \field{volume}{24}
+      \field{year}{2007}
+      \field{pages}{2157\bibrangedash 2174}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1364/josaa.24.002157
+      \endverb
+      \verb{file}
+      \verb /home/l137/snap/zotero-snap/common/Zotero/storage/DYDEBKA4/Goncharov and Dainty - 2007 - Wide-field schematic eye models with gradient-index lens.pdf
+      \endverb
+    \endentry
+    \entry{Goncharov2008}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=7691558fc8d4b2de5534a693a73ff262}{%
+           family={Goncharov},
+           familyi={G\bibinitperiod},
+           given={Alexander\bibnamedelima V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=45d1b899796d4f89fedd7195541c299a}{%
+           family={Nowakowski},
+           familyi={N\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod}}}%
+        {{hash=592de368016ff3b88901754b256625e3}{%
+           family={Sheehan},
+           familyi={S\bibinitperiod},
+           given={Matthew\bibnamedelima T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=80d28af0010df1c7d0aa311d7a426acb}{%
+           family={Dainty},
+           familyi={D\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{2f2b3fade99f526791d609437d98dc2c}
+      \strng{fullhash}{94d3458e6cb2c6a6cb5c57a86d3f38da}
+      \strng{fullhashraw}{94d3458e6cb2c6a6cb5c57a86d3f38da}
+      \strng{bibnamehash}{2f2b3fade99f526791d609437d98dc2c}
+      \strng{authorbibnamehash}{2f2b3fade99f526791d609437d98dc2c}
+      \strng{authornamehash}{2f2b3fade99f526791d609437d98dc2c}
+      \strng{authorfullhash}{94d3458e6cb2c6a6cb5c57a86d3f38da}
+      \strng{authorfullhashraw}{94d3458e6cb2c6a6cb5c57a86d3f38da}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a practical method for reconstructing the optical system of the human eye from off-axis wavefront measurements. A retinal beacon formed at different locations on the retina allows probing the optical structure of the eye by the outgoing beams that exit the eye through the dilated pupil. A Shack-Hartmann aberrometer measures the amount of wave aberrations in each beam at the exit pupil plane. Wavefront data obtained at different oblique directions is used for tomographic reconstruction by optimizing a generic eye model with reverse ray-tracing. The multi-configuration system is constructed by tracing pre-aberrated beams backwards from each direction through the exit pupil into the optical system of the aberrometer followed by the generic eye model. Matching all wave aberrations measured at each field point is equivalent to minimizing the size of the beacon spots on the retina. The main benefit of having a personalized eye model is the ability to identify the origin of the ocular aberrations and to find the optimal way for their correction.}
+      \field{issn}{1094-4087}
+      \field{journaltitle}{Optics Express}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{3}
+      \field{title}{Reconstruction of the {{Optical System}} of the {{Human Eye}} with {{Reverse Ray-Tracing}}}
+      \field{urlday}{20}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{16}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{1692\bibrangedash 1703}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1364/OE.16.001692
+      \endverb
+      \verb{file}
+      \verb /home/l137/snap/zotero-snap/common/Zotero/storage/35Z6LD4V/Goncharov et al. - 2008 - Reconstruction of the Optical System of the Human Eye with Reverse Ray-Tracing.pdf
+      \endverb
+      \keyw{Eye models,Gradient index lenses,Imaging systems,Laser surgery,Optical systems,Optical testing}
+    \endentry
+    \entry{Pierscionek2012}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=735e548ea0aeee7a5d0816073388db0c}{%
+           family={Pierscionek},
+           familyi={P\bibinitperiod},
+           given={Barbara\bibnamedelima K.},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=c7d4e7a7f6f777aa47a3a903b9520ec8}{%
+           family={Regini},
+           familyi={R\bibinitperiod},
+           given={Justyn\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{94dc9cf1b7630331a63d47b02d29125f}
+      \strng{fullhash}{94dc9cf1b7630331a63d47b02d29125f}
+      \strng{fullhashraw}{94dc9cf1b7630331a63d47b02d29125f}
+      \strng{bibnamehash}{94dc9cf1b7630331a63d47b02d29125f}
+      \strng{authorbibnamehash}{94dc9cf1b7630331a63d47b02d29125f}
+      \strng{authornamehash}{94dc9cf1b7630331a63d47b02d29125f}
+      \strng{authorfullhash}{94dc9cf1b7630331a63d47b02d29125f}
+      \strng{authorfullhashraw}{94dc9cf1b7630331a63d47b02d29125f}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The refractive power of a lens is determined largely by its surface curvatures and the refractive index of its medium. These properties can also be used to control the sharpness of focus and hence the image quality. One of the most effective ways of doing this is with a gradient index. Eye lenses of all species, thus far, measured, are gradient index (GRIN) structures. The index gradation is one that increases from the periphery of the lens to its centre but the steepness of the gradient and the magnitudes of the refractive index vary so that the optics of the lens accords with visual demands. The structural proteins, the crystallins, which create the index gradient, also vary from species to species, in type and relative distribution across the tissue. The crystallin classes do not contribute equally to the refractive index, and this may be related to their structure and amino acid content. This article compares GRIN forms in eye lenses of varying species, the relevance of these forms to visual requirements, and the relationship between refractive index and the structural proteins. Consideration is given to the dynamics of a living lens, potential variations in the GRIN form with physiological changes and the possible link between discontinuities in the gradient and growth. Finally, the property of birefringence and the characteristic polarisation patterns seen in highly ordered crystals that have also been observed in specially prepared eye lenses are described and discussed.}
+      \field{issn}{1350-9462}
+      \field{journaltitle}{Progress in Retinal and Eye Research}
+      \field{month}{7}
+      \field{number}{4}
+      \field{shorttitle}{The Gradient Index Lens of the Eye}
+      \field{title}{The Gradient Index Lens of the Eye: {{An}} Opto-Biological Synchrony}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{31}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{332\bibrangedash 349}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.preteyeres.2012.03.001
+      \endverb
+      \verb{file}
+      \verb /home/l137/snap/zotero-snap/common/Zotero/storage/CMZIUIEI/Pierscionek and Regini - 2012 - The gradient index lens of the eye An opto-biological synchrony.pdf;/home/l137/snap/zotero-snap/common/Zotero/storage/G7V26X23/S1350946212000158.html
+      \endverb
+      \keyw{Birefringence,Crystallins,Dispersion,Eye lens,Gradient refractive index,Image quality,Specific refractive increment}
+    \endentry
+    \entry{Luneburg2023}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=d287c22d5d67d545a760849742ef726d}{%
+           family={Luneburg},
+           familyi={L\bibinitperiod},
+           given={R.\bibnamedelimi K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Univ of California Press}%
+      }
+      \strng{namehash}{d287c22d5d67d545a760849742ef726d}
+      \strng{fullhash}{d287c22d5d67d545a760849742ef726d}
+      \strng{fullhashraw}{d287c22d5d67d545a760849742ef726d}
+      \strng{bibnamehash}{d287c22d5d67d545a760849742ef726d}
+      \strng{authorbibnamehash}{d287c22d5d67d545a760849742ef726d}
+      \strng{authornamehash}{d287c22d5d67d545a760849742ef726d}
+      \strng{authorfullhash}{d287c22d5d67d545a760849742ef726d}
+      \strng{authorfullhashraw}{d287c22d5d67d545a760849742ef726d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mathematical Theory of Optics by Dr. Rudolf K. Luneburg stands as a monumental work in the field of optical theory, offering a rigorous and innovative approach to understanding instrumental optics through the lens of Maxwell's electromagnetic equations. First presented as a lecture series at Brown University in 1944, and later refined into these notes, Luneburg's work connects geometrical optics and scalar diffraction optics as systematic extensions of electromagnetic theory. This unification was groundbreaking, as these disciplines were previously treated as distinct fields. Luneburg's formulation of geometrical optics as exact solutions to Maxwell's equations, rather than simply as asymptotic approximations, redefined the theoretical landscape and laid the groundwork for future developments in optics. The volume meticulously explores topics such as Hamilton's theory of geometrical optics, the mathematical treatment of optical aberrations, and the now-famous Luneburg lens, which has become a key component in microwave antenna technology. Later chapters delve into diffraction theory, introducing Luneburg diffraction integrals that extend classical results and address complex problems such as resolution improvements. With additional appendices and notes by prominent scholars, the book not only consolidates Luneburg's profound insights but also enriches the field with practical applications and theoretical advancements. Recognized as one of the most significant contributions to optical theory, this volume remains a foundational text for physicists and engineers engaged in advanced optical research. This title is part of UC Press's Voices Revived program, which commemorates University of California Press's mission to seek out and cultivate the brightest minds and give them voice, reach, and impact. Drawing on a backlist dating to 1893, Voices Revived makes high-quality, peer-reviewed scholarship accessible once again using print-on-demand technology. This title was originally published in 1964.}
+      \field{isbn}{978-0-520-32826-6}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{title}{Mathematical {{Theory}} of {{Optics}}}
+      \field{year}{2023}
+      \keyw{Mathematics / Geometry / General}
+    \endentry
+    \entry{Navarro2009}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=f65de9a706692e1fa82fd73ce532f1d1}{%
+           family={Navarro},
+           familyi={N\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f65de9a706692e1fa82fd73ce532f1d1}
+      \strng{fullhash}{f65de9a706692e1fa82fd73ce532f1d1}
+      \strng{fullhashraw}{f65de9a706692e1fa82fd73ce532f1d1}
+      \strng{bibnamehash}{f65de9a706692e1fa82fd73ce532f1d1}
+      \strng{authorbibnamehash}{f65de9a706692e1fa82fd73ce532f1d1}
+      \strng{authornamehash}{f65de9a706692e1fa82fd73ce532f1d1}
+      \strng{authorfullhash}{f65de9a706692e1fa82fd73ce532f1d1}
+      \strng{authorfullhashraw}{f65de9a706692e1fa82fd73ce532f1d1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Cornea, lens and eye models are analyzed and compared to experimental findings to assess properties and eventually unveil optical design principles involved in the structure and function of the optical system of the eye. Models and data often show good match but also some paradoxes. The optical design seems to correspond to a wide angle lens. Compared to conventional optical systems, the eye presents a poor optical quality on axis, but a relatively good quality off-axis, thus yielding higher homogeneity for a wide visual field. This seems the result of an intriguing combination of the symmetry design principle with a total lack of rotational symmetry, decentrations and misalignments of the optical surfaces. Resumen En este trabajo, los modelos de córnea, de cristalino y de ojo se analizan y se comparan con los datos experimentales para evaluar las propiedades y, eventualmente, para desvelar los principios del diseño óptico que afectan a la estructura y al funcionamiento del sistema óptico del ojo humano. A menudo encontramos una coincidencia razonable entre los modelos y los datos experimentales, pero también se ponen de manifiesto algunas paradojas. El diseño óptico parece corresponderse con el de un gran angular. En comparación con los sistemas ópticos convencionales, el ojo tiene una mala calidad óptica en eje pero, por el contrario, presenta una calidad relativamente buena fuera de eje, proporcionando así una gran homogeneidad a una amplia extensión del campo visual. Este hecho parece ser el resultado de una curiosa combinación del principio de diseño simétrico con una total ausencia de simetría de rotación, con descentramientos y con una deficiente alineación de las superficies ópticas.}
+      \field{issn}{1888-4296}
+      \field{journaltitle}{Journal of Optometry}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shorttitle}{The {{Optical Design}} of the {{Human Eye}}}
+      \field{title}{The {{Optical Design}} of the {{Human Eye}}: A {{Critical Review}}}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{2}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{3\bibrangedash 18}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.3921/joptom.2009.3
+      \endverb
+      \verb{file}
+      \verb /home/l137/snap/zotero-snap/common/Zotero/storage/QNCY8433/Navarro - 2009 - The Optical Design of the Human Eye a Critical Review.pdf;/home/l137/snap/zotero-snap/common/Zotero/storage/AM2BTHLH/S1888429609700184.html
+      \endverb
+      \keyw{aberraciones oculares,calidad optica del ojo,design principles,diseno optico del ojo humano,eye models,human eye's optical design,modelos de ojo,ocular aberrations,optical quality of the eye,principios de diseno}
+    \endentry
+    \entry{Liu2005}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=22e689e8a5d57e7cfd0bd9417a84f407}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yong-Ji},
+           giveni={Y\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=4c24c6ed22f68e4e9cd352a70d07b7e7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhao-Qi},
+           giveni={Z\bibinithyphendelim Q\bibinitperiod}}}%
+        {{hash=0ceda93e6f88491daf43aab17cbcb5f1}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Li-Pei},
+           giveni={L\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=224eb3558bbf213ac6bc8d7d4f703aed}{%
+           family={Mu},
+           familyi={M\bibinitperiod},
+           given={Guo-Guang},
+           giveni={G\bibinithyphendelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d37e9fb7430e93b703dd812315e2d578}
+      \strng{fullhash}{3259ee8664e66b25be26af830b54622e}
+      \strng{fullhashraw}{3259ee8664e66b25be26af830b54622e}
+      \strng{bibnamehash}{d37e9fb7430e93b703dd812315e2d578}
+      \strng{authorbibnamehash}{d37e9fb7430e93b703dd812315e2d578}
+      \strng{authornamehash}{d37e9fb7430e93b703dd812315e2d578}
+      \strng{authorfullhash}{3259ee8664e66b25be26af830b54622e}
+      \strng{authorfullhashraw}{3259ee8664e66b25be26af830b54622e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A human eye model based on anatomically accurate eye model previously proposed by Liou, has been transformed into a new eye model, in which laminated structure of the lens is considered. The crystalline lens is presented in the form of hundreds of shells with rotational symmetry, and with constant index within each shell. The refractive index increases from the cortical shell to the inner one, according to the equation proposed by Smith G. et al. The anterior surface of the lens is prolate, whereas the posterior surface of the lens is oblate which is consistent with the anatomical data. A ray tracing procedure has been applied to study the refractive structure of the eye. The optical characters of the model have been studied. The reason that the wings occur on the spherical aberration curve has been given. And we found that the lens with gradient refractive index and lens with shell structure can give same longitudinal spherical aberration results.}
+      \field{issn}{0030-4026}
+      \field{journaltitle}{Optik}
+      \field{month}{7}
+      \field{number}{6}
+      \field{title}{An Anatomically Accurate Eye Model with a Shell-Structure Lens}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{116}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{241\bibrangedash 246}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.ijleo.2005.02.003
+      \endverb
+      \verb{file}
+      \verb /home/l137/snap/zotero-snap/common/Zotero/storage/KHJVRFHH/Liu et al. - 2005 - An anatomically accurate eye model with a shell-structure lens.pdf;/home/l137/snap/zotero-snap/common/Zotero/storage/QBEREXMT/S0030402605000689.html
+      \endverb
+      \keyw{Eye model,Longitudinal spherical aberration,Ray tracing,Shell}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

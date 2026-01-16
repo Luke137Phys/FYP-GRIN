@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lit Review/Maths of the lens.md",
+                "file": "Lit Review/How are they Used in Eyes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Maths of the lens"
+              "title": "How are they Used in Eyes"
             }
           }
         ],
@@ -188,18 +188,18 @@
   },
   "active": "3ca4d30b2559c544",
   "lastOpenFiles": [
-    "Lit Review/Main Points.md",
-    "Lit Review/How are they Used in Eyes.md",
     "Lit Review/GRIN Lenses.md",
     "Lit Review/Aberrations.md",
-    "General Notes/Lens Shape.md",
     "General Notes/Questions for meeting.md",
     "General Notes/Schematic Eye Models.md",
+    "Lit Review/How are they Used in Eyes.md",
+    "Lit Review/Maths of the lens.md",
+    "General Notes/Lens Shape.md",
     "General Notes/GRIN Lens.md",
+    "Lit Review/Main Points.md",
     "References/Flynn2024.md",
     "Templates/paper.md",
     "General Notes/Differential Equations.md",
-    "Lit Review/Maths of the lens.md",
     "Plan/Project Plan.md",
     "Plan",
     "References/Liu2005.md",

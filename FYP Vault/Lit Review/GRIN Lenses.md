@@ -34,9 +34,10 @@ Radial GRIN Profile:
 
 - Here the refractive index varies as distance from a given plane
 - Usually it is the plane which is orthogonal to the optical axis
-- Thin-layered axial GRIN structures are designed to minimise reflections ad can reduce spherical aberration.
+- Thin-layered axial GRIN structures are designed to minimise reflections ad can reduce spherical aberration. 
 - An axial GRIN medium does not have focusing properties.
 	- This is instead determined by the lens surface
+	[[Pierscionek2012]]
 
 Axial GRIN Profile:
 ![[Axial.jpg]]
