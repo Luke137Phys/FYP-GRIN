@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
-[0] Config.pm:331> INFO - Logfile is 'Lit Review.blg'
-[90] biber:342> INFO - === Fri Jan 16, 2026, 17:00:13
-[108] Biber.pm:421> INFO - Reading 'Lit Review.bcf'
-[193] Biber.pm:1002> INFO - Found 10 citekeys in bib section 0
-[207] Biber.pm:4487> INFO - Processing section 0
-[219] Biber.pm:4678> INFO - Looking for bibtex file 'References.bib' for section 0
-[221] bibtex.pm:1713> INFO - LaTeX decoding ...
-[254] bibtex.pm:1519> INFO - Found BibTeX data source 'References.bib'
-[385] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[385] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[385] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[385] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[392] bbl.pm:676> INFO - Writing 'Lit Review.bbl' with encoding 'UTF-8'
-[397] bbl.pm:779> INFO - Output to Lit Review.bbl
+[1] Config.pm:331> INFO - Logfile is 'Lit Review.blg'
+[95] biber:342> INFO - === Fri Jan 23, 2026, 16:02:08
+[113] Biber.pm:421> INFO - Reading 'Lit Review.bcf'
+[223] Biber.pm:1002> INFO - Found 10 citekeys in bib section 0
+[241] Biber.pm:4487> INFO - Processing section 0
+[266] Biber.pm:4678> INFO - Looking for bibtex file 'References.bib' for section 0
+[270] bibtex.pm:1713> INFO - LaTeX decoding ...
+[339] bibtex.pm:1519> INFO - Found BibTeX data source 'References.bib'
+[533] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[533] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[533] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[533] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[541] bbl.pm:676> INFO - Writing 'Lit Review.bbl' with encoding 'UTF-8'
+[547] bbl.pm:779> INFO - Output to Lit Review.bbl

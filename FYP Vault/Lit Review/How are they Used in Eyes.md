@@ -1,4 +1,4 @@
-		
+ 		
 
 > [!NOTE] GRIN Profile of the Eye
 > The GRIN profile of the eye is constructed from a radial GRIN profile in the equatorial plane (it varies with respect to perpendicular distance from OA) and an axial GRIN profile along the optical axis.
