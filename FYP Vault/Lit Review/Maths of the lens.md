@@ -97,3 +97,33 @@ $$D=\sqrt{\frac{n_3^2}{n_1n_4}}$$
 $$n_{max}=n_0+\frac{n_3^2}{4n_4}$$
 
 where $d$ is the lens thickness along the OA and $D$ is the diameter (height) of the lens. $D$ can also be called the aperture.
+
+### EFL and BFD
+
+**DERIVATION TO FOLLOW**
+
+The EFL can be calculated using:
+
+$$EFL=-\frac{h_0}{n_0h'(c)},$$
+where $h_0$ is the intitial ray height, $n_0$ is the surface refractive index, $h'=\frac{\text{d}h}{\text{d}z}$ and $c$ is the exit position of the ray along the $z$ axis.
+
+In the paraxial region, $c=d$, the thickness of the lens. 
+
+In general at the surface using:
+
+$$n_0=n_0-n_1h^2(z)+n_3z-n_4z^2$$
+we get that:
+
+$$h^2(z)=\frac{n_3z-n_4z^2}{n_1}$$
+so:
+
+$$h(z)=\sqrt{\frac{n_3z-n_4z^2}{n_1}}$$
+Is the height of the ray at the surface. Solving this will give two roots, the larger of which is $c$.
+
+Calculating BFD
+
+Outside of the paraxial:
+$$c=\Delta-d$$
+For $\Delta$ asmall deviation along $z$. In a quadratic lens:
+$$d=\frac{n3}{n4}$$
+
